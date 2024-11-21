@@ -1,0 +1,126 @@
+/* Đặt chiều rộng cho container chính */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Đặt tiêu đề lớn và căn giữa */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Hộp tìm kiếm */
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  width: 300px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+/* Nút thêm hàng hóa */
+.add-product {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.add-product:hover {
+  background-color: #218838;
+}
+
+/* Danh sách sản phẩm trống */
+p {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+/* Danh sách sản phẩm */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Nút sửa và xóa */
+.edit, .delete {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit:hover {
+  background-color: #0056b3;
+}
+
+.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete:hover {
+  background-color: #c82333;
+}
+
+/* Phần phân trang */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  color: #888;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}
+
+.pagination button:disabled {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  margin: 0 10px;
+  font-size: 1rem;
+}
+
+.pagination .active {
+  background-color: #007bff;
+  color: white;
+}
